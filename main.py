@@ -10,7 +10,7 @@ def percentuais(faturamento_mensal):
     return percentual
 
 def load():
-    with open('test.json','r') as file:
+    with open('dados.json','r') as file:
         dados = json.load(file)
     return dados['faturamento_diario']
 
